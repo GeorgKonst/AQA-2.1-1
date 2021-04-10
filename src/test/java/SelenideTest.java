@@ -13,6 +13,5 @@ public class SelenideTest {
         $("[data-test-id='agreement']").click();
         $("[role='button']").click();
         $(".paragraph").shouldHave(Condition.exactText("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время."));
-        sleep(5000);
     }
 }
